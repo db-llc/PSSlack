@@ -7,6 +7,12 @@ This is a quick and dirty module to interact with the Slack API.
 
 Pull requests and other contributions would be welcome!
 
+# Fork
+
+https://github.com/RamblingCookieMonster/PSSlack
+
+- Fix national symbols
+
 # Instructions
 
 ```powershell
