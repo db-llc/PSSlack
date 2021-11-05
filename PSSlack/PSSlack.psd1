@@ -1,10 +1,10 @@
-@{
+﻿@{
 
 # Script module or binary module file associated with this manifest.
 RootModule = 'PSSlack.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.0'
+ModuleVersion = '1.0.7'
 
 # ID used to uniquely identify this module
 GUID = 'fb0a1f73-e16c-4829-b2a7-4fc8d7bed545'
@@ -25,7 +25,7 @@ PowerShellVersion = '3.0'
 FormatsToProcess = 'PSSlack.Format.ps1xml'
 
 # Functions to export from this module
-FunctionsToExport = '*'
+FunctionsToExport = @('Find-SlackMessage','Get-PSSlackConfig','Get-SlackAuth','Get-SlackChannel','Get-SlackFileInfo','Get-SlackGroup','Get-SlackGroupHistory','Get-SlackHistory','Get-SlackReminder','Get-SlackTeam','Get-SlackUser','Get-SlackUserGroup','Get-SlackUserMap','New-SlackAction','New-SlackActionConfirmation','New-SlackActionOption','New-SlackField','New-SlackMessage','New-SlackMessageAttachment','New-SlackReminder','Remove-SlackFile','Remove-SlackMessage','Remove-SlackReminder','Send-SlackApi','Send-SlackFile','Send-SlackMessage','Set-PSSlackConfig','Set-SlackReminderComplete','Test-SlackApi','Test-SlackAuth')
 
 # Cmdlets to export from this module
 CmdletsToExport = '*'
